@@ -25,12 +25,19 @@ def log(*a):
 
 
 def safe_action(req):
-    legal = req.get("legal_actions", [])
+    """Emergency reply (low time bank or internal error). Always picks from legal_actions."""
+    legal = req.get("legal_actions") or []
     if "check" in legal:
         return {"type": "action", "action": "check"}
     if "call" in legal and req.get("to_call", 0) <= max(4, req.get("pot", 0) // 4):
         return {"type": "action", "action": "call"}
-    return {"type": "action", "action": "fold" if "fold" in legal else "call"}
+    if "fold" in legal:
+        return {"type": "action", "action": "fold"}
+    if "call" in legal:
+        return {"type": "action", "action": "call"}
+    if "raise" in legal and "min_raise" in req:
+        return {"type": "action", "action": "raise", "amount": int(req["min_raise"])}
+    return {"type": "action", "action": "check"}  # unreachable for valid requests
 
 
 def safe_discard(req):

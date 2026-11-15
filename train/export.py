@@ -16,6 +16,7 @@ def export(genome_path, out):
         shutil.rmtree(out)
     os.makedirs(os.path.join(out, "pokerbot"))
     shutil.copy(os.path.join(ROOT, "deploy", "bot.py"), os.path.join(out, "bot.py"))
+    shutil.copy(os.path.join(ROOT, "deploy", "README.md"), os.path.join(out, "README.md"))
     for f in ("__init__.py", "core.py", "agent.py"):
         shutil.copy(os.path.join(ROOT, "pokerbot", f), os.path.join(out, "pokerbot", f))
     shutil.copy(os.path.join(ROOT, "data", "preflop.json"), os.path.join(out, "preflop.json"))
@@ -26,7 +27,7 @@ def export(genome_path, out):
     zpath = out.rstrip("/\\") + ".zip"
     with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
         for dp, _, files in os.walk(out):
-            for fn in files:
+            for fn in sorted(files):
                 if fn.endswith(".pyc"):
                     continue
                 full = os.path.join(dp, fn)

@@ -12,7 +12,7 @@ from multiprocessing import Pool
 import numpy as np
 
 import train.battle_royale as br
-from pokerbot.agent import load_genome, save_genome
+from pokerbot.genome_io import load_genome, save_genome
 from pokerbot.baselines import BASELINES
 from pokerbot.sim import DealPool, play_match
 

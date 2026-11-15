@@ -12,7 +12,7 @@ from multiprocessing import Pool
 
 import numpy as np
 
-from pokerbot.agent import load_genome, save_genome
+from pokerbot.genome_io import load_genome, save_genome
 from pokerbot.baselines import BASELINES
 from train.battle_royale import _init_worker, _make, CAP_PER_HAND  # noqa: F401
 import train.battle_royale as br

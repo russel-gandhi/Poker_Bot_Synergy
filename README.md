@@ -6,11 +6,11 @@ population-based "battle royale".
 
 ## Final submission
 
-**`final_submission_Russel_Daksh.zip`** is the bot to upload. `final_submission.zip` is an
-identical copy.
+**`final_submission_Seven_Duce.zip`** is the bot to upload. Rebuild it from source with
+`python -m train.export checkpoints/champion_v4.json --out submission`.
 
 ```
-final_submission_Russel_Daksh.zip
+final_submission_Seven_Duce.zip
 ├── bot.py            # entry point (stdin/stdout JSON protocol)
 ├── README.md         # judges' guide: how to run, contents, compliance
 ├── model.json        # trained policy weights (v4 champion)
@@ -66,7 +66,7 @@ champion, kept as a backup.
 
 | Path | Contents |
 |---|---|
-| `pokerbot/` | Evaluator, equity, agent, simulator, deal-pool builder |
+| `pokerbot/` | Evaluator, equity, agent, simulator, deal-pool builder, genome file I/O (training only) |
 | `train/` | Warm start, battle royale, selection, export, official-engine tests, head-to-head |
 | `deploy/bot.py` | Bot template packaged into each submission |
 | `arena/` | Simple baseline bots (station, maniac, nit, equity, random) |

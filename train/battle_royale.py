@@ -29,7 +29,8 @@ from multiprocessing import Pool
 
 import numpy as np
 
-from pokerbot.agent import GRAD_KEYS, PolicyAgent, load_genome, new_genome, policy_grad_logp, save_genome
+from pokerbot.agent import GRAD_KEYS, PolicyAgent, new_genome, policy_grad_logp
+from pokerbot.genome_io import load_genome, save_genome
 from pokerbot.baselines import BASELINES
 from pokerbot.sim import DealPool, play_match
 

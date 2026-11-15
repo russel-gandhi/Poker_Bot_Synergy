@@ -8,7 +8,8 @@ import os
 
 import numpy as np
 
-from pokerbot.agent import (N_ACT, RAISE_FRAC, new_genome, policy_forward, save_genome, GRAD_KEYS)
+from pokerbot.agent import (N_ACT, RAISE_FRAC, new_genome, policy_forward, GRAD_KEYS)
+from pokerbot.genome_io import save_genome
 from pokerbot.baselines import BASELINES
 from pokerbot.sim import DealPool, play_match
 

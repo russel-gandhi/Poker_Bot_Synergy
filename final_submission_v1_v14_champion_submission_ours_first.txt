@@ -1,7 +1,0 @@
-
-=== Stage 2 (1000 hands/match, C=1000) ===
-  seed    A net    B net   A time  B time  notices  result
-    61      +85      -85      7.0    26.2  0/0      A wins
-    62     -457     +457      7.3    26.1  0/0      B wins
-    63     -834     +834      7.3    26.1  0/0      B wins
-match points  A 1.0  B 2.0   | capped chips/hand  A -0.402  B +0.402

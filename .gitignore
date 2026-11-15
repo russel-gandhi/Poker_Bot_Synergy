@@ -17,17 +17,11 @@ runs/
 scratch_sub/
 scratch_sub.zip
 
-# Intermediate builds (final_submission.zip and the v3 fallback are kept)
+# Build outputs (only final_submission_Seven_Duce.zip and the v3 fallback are kept)
 submission/
-submission_v1/
-submission_v2/
-submission_v3/
-submission_v4/
-submission.zip
-submission_v1.zip
-submission_v2.zip
-submission_v3.zip
-submission_v4.zip
+submission*.zip
+!submission_v3_fallback.zip
+submission_v*/
 
 __pycache__/
 *.pyc
