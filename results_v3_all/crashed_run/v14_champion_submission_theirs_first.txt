@@ -1,0 +1,42 @@
+
+=== Stage 1 (400 hands/match, C=400) ===
+  seed    A net    B net   A time  B time  notices  result
+    81      -50      +50     37.8    14.9  0/0      B wins
+    82     -754     +754     42.5     8.9  0/0      B wins
+83 FORFEIT/ERROR: A wins by forfeit; A's delta is set to +400
+
+Seed 83 | 0 of 400 hands played (2 legs of 200)
+  A  opponents\v14_champion_submission\bot.py net      +0   time used   1.91 s (bank 30 s per leg)   notices 0
+  B  submission_v3\bot.py             net      +0   time used   0.00 s (bank 30 s per leg)   notices 0
+B forfeited at leg 1, hand 1: reply took longer than 5 s
+Result: A wins by forfeit; A's delta is set to +400
+Logs: C:\Users\Kashish Gandhi\Desktop\poker_bot\logs\h2h_v14_champion_submission_vs_submission_v3\s1_seed83\match.log, A_leg1_stderr.txt, A_leg2_stderr.txt, B_leg1_stderr.txt, B_leg2_stderr.txt
+
+84 FORFEIT/ERROR: A wins by forfeit; A's delta is set to +400
+
+Seed 84 | 200 of 400 hands played (2 legs of 200)
+  A  opponents\v14_champion_submission\bot.py net    +116   time used  18.24 s (bank 30 s per leg)   notices 0
+  B  submission_v3\bot.py             net    -116   time used   6.75 s (bank 30 s per leg)   notices 0
+B forfeited at leg 2, hand 1: reply took longer than 5 s
+Result: A wins by forfeit; A's delta is set to +400
+Logs: C:\Users\Kashish Gandhi\Desktop\poker_bot\logs\h2h_v14_champion_submission_vs_submission_v3\s1_seed84\match.log, A_leg1_stderr.txt, A_leg2_stderr.txt, B_leg1_stderr.txt, B_leg2_stderr.txt
+
+85 FORFEIT/ERROR: A wins by forfeit; A's delta is set to +400
+
+Seed 85 | 0 of 400 hands played (2 legs of 200)
+  A  opponents\v14_champion_submission\bot.py net      +0   time used   1.34 s (bank 30 s per leg)   notices 0
+  B  submission_v3\bot.py             net      +0   time used   0.00 s (bank 30 s per leg)   notices 0
+B forfeited at leg 1, hand 1: reply took longer than 5 s
+Result: A wins by forfeit; A's delta is set to +400
+Logs: C:\Users\Kashish Gandhi\Desktop\poker_bot\logs\h2h_v14_champion_submission_vs_submission_v3\s1_seed85\match.log, A_leg1_stderr.txt, A_leg2_stderr.txt, B_leg1_stderr.txt, B_leg2_stderr.txt
+
+match points  A 3.0  B 2.0   | capped chips/hand  A +0.375  B -0.375
+
+=== Stage 2 (1000 hands/match, C=1000) ===
+  seed    A net    B net   A time  B time  notices  result
+    81      +98      -98     98.1    22.0  0/0      A wins
+    82     -626     +626     91.6    17.9  0/0      B wins
+    83      +24      -24     95.7    18.6  0/0      A wins
+    84    -1597    +1597     87.7    21.2  0/0      B wins
+    85      +76      -76     83.7    21.9  0/0      A wins
+match points  A 3.0  B 2.0   | capped chips/hand  A -0.286  B +0.286

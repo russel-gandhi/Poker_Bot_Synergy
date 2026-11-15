@@ -1,0 +1,33 @@
+# Friends' bots: other teams' code, never published (black-box test opponents only)
+opponents/
+logs/
+
+# Organisers' material (contest documents and original kit archive)
+*.pdf
+problem_statement.txt
+protocol_specification.txt
+rulebook.txt
+aa53d854-c36c-41e4-9c64-4e0cba64d04d.zip
+*.rar
+
+# Bulk / regenerable training data and run state
+data/*.npz
+runs/
+*.log
+scratch_sub/
+scratch_sub.zip
+
+# Intermediate builds (final_submission.zip and the v3 fallback are kept)
+submission/
+submission_v1/
+submission_v2/
+submission_v3/
+submission_v4/
+submission.zip
+submission_v1.zip
+submission_v2.zip
+submission_v3.zip
+submission_v4.zip
+
+__pycache__/
+*.pyc

@@ -1,0 +1,18 @@
+
+=== Stage 1 (400 hands/match, C=400) ===
+  seed    A net    B net   A time  B time  notices  result
+    81    -1202    +1202     30.4     3.7  0/0      B wins
+    82     -988     +988     30.9     3.7  0/0      B wins
+    83     -336     +336     30.4     3.5  0/0      B wins
+    84     -207     +207     31.0     3.8  0/0      B wins
+    85    -1589    +1589     30.0     3.6  0/0      B wins
+match points  A 0.0  B 5.0   | capped chips/hand  A -0.872  B +0.872
+
+=== Stage 2 (1000 hands/match, C=1000) ===
+  seed    A net    B net   A time  B time  notices  result
+    81    -3039    +3039     84.0    10.1  0/0      B wins
+    82    -3705    +3705     95.2    11.3  0/0      B wins
+    83    -1579    +1579     94.2    11.2  0/0      B wins
+    84    -2056    +2056     91.5    10.9  0/0      B wins
+    85    -3304    +3304     87.4    10.3  0/0      B wins
+match points  A 0.0  B 5.0   | capped chips/hand  A -1.000  B +1.000
