@@ -90,5 +90,4 @@ about 30-40 s.
 
 ## Notes
 
-- Bots from other teams that were used as test opponents are **not** in this repository.
 - Tested on Python 3.10, 3.11 (numpy 1.26 and 2.4), 3.12 and 3.13.
